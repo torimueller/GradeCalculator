@@ -30,6 +30,13 @@ public class Course {
 	}
 	
 
+	public void addEntryToField(double entry, String fieldName){
+		for(int i = 0; i < numFields; i++){
+			if(fieldName.compareTo(this.fields[i].getName()) == 0){
+				this.fields[i].addEntry(entry);
+			}
+		}
+	}
 	public String toString(){
 		String str = "";
 		for(Field field : fields){

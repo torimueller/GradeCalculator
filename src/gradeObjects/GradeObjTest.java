@@ -16,6 +16,10 @@ public class GradeObjTest {
 		
 		calculus.setFields(fields);
 		
+		calculus.addEntryToField(95.0, "Midterms");
+		calculus.addEntryToField(80.0, "Quizzes");
+		calculus.addEntryToField(90.0, "Quizzes");
+		
 		System.out.println(calculus.toString());
 
 		
