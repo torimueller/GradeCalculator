@@ -1,6 +1,13 @@
 package gradeObjects;
 
-public class gradeObjTest {
+/**
+ * 
+ * @author Victoria
+ *
+ *GradeObjTest
+ */
+
+public class GradeObjTest {
 
 	public static void main(String[] args) {
 		Field fields[] = {new Field("Midterms", 3, .35), new Field("Final", 1, .35)
